@@ -18,3 +18,69 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.country-list__item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.country-list__flag {
+  margin-right: 10px;
+}
+
+.description {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.accent {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.description__name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description__name>span {
+  font-weight: normal;
+}
+
+.description__name:not(:last-child) {
+  margin-bottom: 10px;
+}
